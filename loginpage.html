@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head><title>EPAM SIGN-IN PAGE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel=”stylesheet” href=”css/bootstrap.css”>
+<link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<br>
+<br>
+<nav class=”navbar fixed-top navbar-expand-md navbar-light bg-light”>
+<nav class=”navbar fixed-top navbar-expand-md navbar-light bg-light”>
+ <div class=”container”>
+<center>
+<div class="w3-container ">
+  <span onclick="closeSidebar()" class="w3-button w3-display-top w3-large"
+ style="float:right;">X</span>
+  <h2 style="text-align:center"><b>Sign in</b></h1>
+    
+  
+</div>
+
+<div class="row">
+<br>
+<div class="in">
+    <input type="mail" placeholder="mail@gmail.com" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBgd3I4UdjRE5LLAt8GJOaZ-z7Sb3_xw93x4cgcN5FTD5dK9Vc&usqp=CAU" height=20,width=20 />
+</div>
+<div class="in">
+<label for="pwd"></label>
+    <input type="password" placeholder="password"  id="pwd" name="pwd" minlength="9"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRt8Vslzg6m-7EtZJpLorZoh0o4bCzFf2OHHpQGqvXUtDbXHv0G&usqp=CAU" width=20 />
+</div>
+<a href="https://epam.com/">
+<button class="button"><b>SIGN IN</b></button></a><br>
+<button1 class="button1">Forgot your password? <span style="float:right;"><a href="Registration.html">Register!</a></span></button1>
+<br>
+<button1 class="button1">__________________ OR  _________________</button1><br>
+<br>
+<a href="#" class="fa fa-facebook"></a><br>
+<a href="#" class="fa fa-google"></a>
+<br>
+<br><a href="Registration.html">
+<button class="button" style="background-color: #b3b300">&#60; EPAM LOGIN &#62;</button></a><br>
+</center>
+<script>
+closeSidebar();
+function openSidebar() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeSidebar() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</nav>
+</nav>
+</div>
+
+
+</body>
+</html>
